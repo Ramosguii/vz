@@ -198,6 +198,35 @@
 		</svg>
 	</button>
 </aside>
+<!-- Tailwind incorporado: elimina a dependência da pasta *_files no deploy. -->
+<script>
+  tailwind = {
+    config: {
+      theme: {
+        extend: {
+          colors: {
+            background: '#130609', foreground: '#fff8f8', primary: '#f43f5e',
+            'primary-foreground': '#fff', secondary: '#2a0d13',
+            'secondary-foreground': '#fff', muted: '#32131a',
+            'muted-foreground': '#cbb7bb', accent: '#f59e0b',
+            'accent-foreground': '#1b0a02', border: '#52202a'
+          },
+          boxShadow: { hot: '0 10px 40px -10px rgb(244 63 94 / .65), 0 0 60px rgb(244 63 94 / .2)' }
+        }
+      }
+    }
+  };
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  :root {
+    --gradient-hot: linear-gradient(135deg, #f43f5e, #fb923c);
+    --gradient-bg: radial-gradient(ellipse at top, #3b0b19 0%, #120508 48%, #080203 100%);
+    --shadow-hot: 0 10px 40px -10px rgb(244 63 94 / .65), 0 0 60px rgb(244 63 94 / .2);
+  }
+  body { margin: 0; background: #130609; color: #fff8f8; font-family: ui-sans-serif, system-ui, sans-serif; }
+  .prv-subscribe-btn { width: 100%; cursor: pointer; }
+</style>
 <style>
   /* Versão mobile: mantém as margens, o CTA fixo e os controles acessíveis. */
   html { -webkit-text-size-adjust: 100%; }
