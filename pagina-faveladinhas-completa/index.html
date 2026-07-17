@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e9eef5">
+  <title>Faveladinhas VIP</title>
+  <style>
+    :root{--ink:#25263a;--muted:#747d90;--orange:#ff6a1e;--pink:#ec3e91}
+    *{box-sizing:border-box}
+    html{background:#e9eef5}
+    body{margin:0;background:#e9eef5;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+    .page{min-height:100vh;padding:16px 20px 12px}
+    .card{width:min(100%,704px);margin:auto;overflow:hidden;border-radius:20px;background:#fff;box-shadow:0 12px 35px rgba(33,43,61,.08)}
+    .cover{position:relative;height:294px;background:#d8dde5;overflow:hidden}
+    .cover img{width:100%;height:100%;object-fit:cover;display:block}
+    .cover:after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#fff)}
+    .body{position:relative;padding:0 32px}
+    .avatar{position:absolute;top:-60px;left:32px;width:116px;height:116px;border:6px solid #fff;border-radius:50%;overflow:hidden;background:#111;box-shadow:0 4px 10px #0003}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    .identity{min-height:91px;padding-top:77px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
+    h1{margin:0 0 3px;font-size:29px;line-height:1;letter-spacing:-.8px}
+    .verified{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#1d9bf0;color:#fff;font-size:11px;vertical-align:3px}
+    .user{margin:0;color:var(--muted);font-size:18px}
+    .stats{display:flex;gap:18px;color:#747d91;font-size:15px;white-space:nowrap}
+    .bio{max-width:610px;margin:18px 0 70px;font-size:20px;line-height:1.5;color:#384054}
+    .plans{display:grid;gap:11px;padding-bottom:67px}
+    .plan{width:100%;min-height:67px;padding:0 27px;border:0;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff;background:linear-gradient(105deg,var(--orange),var(--pink));font-size:20px;text-decoration:none;transition:.15s ease;box-shadow:0 5px 16px #ed458522}
+    .plan:hover{transform:translateY(-2px);filter:saturate(1.08);box-shadow:0 10px 24px #ed458533}
+    .plan:active{transform:scale(.99)}
+    .plan-name{display:flex;gap:11px;align-items:center;text-align:left;font-weight:800}
+    .plan strong{white-space:nowrap}
+    .gallery-head{height:40px;display:flex;align-items:center;justify-content:space-between;color:#6f7789;font-size:16px}
+    .gallery-head strong{color:#25283b}.gallery-head strong span{color:#ff6a24;margin-right:6px}
+    .gallery{margin:0 -32px;display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:235px;overflow:hidden;border-radius:0 0 20px 20px}
+    .media{position:relative;display:grid;place-items:center;overflow:hidden;border-right:2px solid #fff;border-bottom:2px solid #fff;background:#444}
+    .media img{width:100%;height:100%;object-fit:cover;filter:blur(13px);transform:scale(1.16)}
+    .lock{position:absolute;color:#fff;font-size:33px;text-shadow:0 2px 8px #0005}
+    .more{border:0;background:linear-gradient(145deg,#5d5a52,#22231f);color:#fff;font-size:29px}
+    footer{padding:26px 0 6px;text-align:center;color:#9ba4b5;font-size:15px}
+    @media(max-width:720px){
+      .page{padding:0}.card{border-radius:0;box-shadow:none}.cover{height:44vw;min-height:165px;max-height:294px}
+      .body{padding:0 20px}.avatar{left:20px;top:-46px;width:92px;height:92px;border-width:5px}
+      .identity{min-height:0;padding-top:60px;display:block}h1{font-size:25px}.user{font-size:16px}
+      .stats{margin-top:16px;gap:0;justify-content:space-between;font-size:12px}.bio{margin:13px 0 48px;font-size:17px;line-height:1.45}
+      .plans{gap:10px;padding-bottom:55px}.plan{min-height:57px;padding:0 18px;border-radius:13px;font-size:15px}.plan-name{gap:8px}
+      .gallery-head{font-size:13px}.gallery{margin:0 -20px;grid-auto-rows:33vw;max-height:420px}.lock{font-size:27px}.more{font-size:24px}
+      footer{padding:20px 0;font-size:12px}
+    }
+    @media(max-width:370px){.stats{font-size:10px}.plan{font-size:13px;padding-inline:13px}.bio{font-size:15px}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="cover"><img src="teste - Checkout_files/bn_68_4b8d9bd6.webp" alt="Foto de capa"></div>
+      <div class="body">
+        <div class="avatar"><img src="teste - Checkout_files/ck_68_4b437736.webp" alt="Faveladinhas"></div>
+        <div class="identity">
+          <div><h1>Faveladinhas <span class="verified">✓</span></h1><p class="user">@Faveladinhas</p></div>
+          <div class="stats" aria-label="Estatísticas"><span>▧ 121967</span><span>▱ 47665</span><span>♙ 24650</span><span>♡ 10890000</span></div>
+        </div>
+        <p class="bio">As melhores putinhas vazadas, muita suruba e vídeos de faveladas fudendo.</p>
+
+        <div class="plans">
+          <a class="plan" href="https://serverflow.dad/c/proibido-481a">
+            <span class="plan-name">🔒 🟢 Vitalício 🟢</span><strong>R$ 17,90</strong>
+          </a>
+          <a class="plan" href="https://serverflow.dad/c/-d90a">
+            <span class="plan-name">🔒 Vitalício + 18 mil mídias</span><strong>R$ 24,90</strong>
+          </a>
+          <a class="plan" href="https://paylume.fans/c/dark-web">
+            <span class="plan-name">🔒 🎁 ACESSO FULL + 8 BRINDES</span><strong>R$ 39,90</strong>
+          </a>
+        </div>
+
+        <div class="gallery-head"><strong><span>▧</span>Conteúdo exclusivo</strong><span>169632 mídias</span></div>
+        <div class="gallery">
+          <div class="media"><img src="teste - Checkout_files/gallery_e0b1b4479190.webp" alt=""><span class="lock">♙</span></div>
+          <div class="media"><img src="teste - Checkout_files/gallery_79ad35d7c4b7.webp" alt=""><span class="lock">♙</span></div>
+          <div class="media"><img src="teste - Checkout_files/gallery_b0d595eecb37.webp" alt=""><span class="lock">♙</span></div>
+          <div class="media"><img src="teste - Checkout_files/gallery_b1ba8fe72f15.webp" alt=""><span class="lock">♙</span></div>
+          <div class="media"><img src="teste - Checkout_files/gallery_1b3f016b4752.webp" alt=""><span class="lock">♙</span></div>
+          <div class="media more">+169626</div>
+        </div>
+      </div>
+    </section>
+    <footer>🔒 Pagamento 100% seguro • © 2026</footer>
+  </main>
+</body>
+</html>
